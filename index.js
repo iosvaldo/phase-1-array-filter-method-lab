@@ -12,6 +12,6 @@ const fuzzyMatch = (drivers, index) => {
 
 function matchName(drivers, name){
   return drivers.filter(function(hometown){
-    return hometown.name === name
+    return hometown.name === name;
   })
 }
